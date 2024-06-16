@@ -12,7 +12,7 @@ This is the first time I'm using a VM, so its a bit confusing.
 ## SSH SECURITY
 ### SSH CONFIGURATION
 - Disabled root login and password-based authentication by modifying '/etc/ssh/sshd_config' and setting corresponding fields to 'NO'
-- Struggled quite a bit with the public key authentication.
-    - Kept facing an error stating 'Permission denied(publickey)'. Trying to figure out what that is. 
+- Struggled a bit with the public key authentication.
+    - Kept facing an error stating 'Permission denied(publickey)'. Fixed it (had some trouble with the paths)
   
   
