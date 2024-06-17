@@ -1,7 +1,7 @@
 # SSL TASK DOCUMENTATION
 ## SETUP
 - Logged into Azure and created a VM (**Ubuntu 22.04**)
-- UserID: ashwin.10 , Public IP: 4.240.76.39
+- UserID: ashwin , Public IP: 4.240.109.79
 
 This is the first time I'm using a VM, so its a bit confusing.
 
