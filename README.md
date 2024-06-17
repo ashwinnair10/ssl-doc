@@ -16,4 +16,10 @@ This is the first time I'm using a VM, so its a bit confusing.
     - Kept facing an error stating 'Permission denied(publickey)'. Fixed it ( was trying to match incorrect pair of keys.)
 - Restricted SSH access to a range (4.240.109.) by modifying '/etc/hosts.allow/' file. Also denied all other users by modifying '/etc/hosts.deny' file.
 - fail2ban setup done
--Accidentally ended up locking myself out.
+- Accidentally ended up locking myself out after I enabled ufw-(showed error with kex-configuration... and connection reset by peer).
+
+Had to start over.
+
+## New UserID: ashwin, Public IP: 4.213.195.41
+Completed earlier tasks.
+
