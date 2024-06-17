@@ -6,7 +6,7 @@
 This is the first time I'm using a VM, so its a bit confusing.
 
 ## SYSTEM UPDATES AND SECURITY
-- Updated packages using 'sudo apt update'
+- Updated packages.
 - Configured unattended upgrades to be automatically done by system using 'dpkg-reconfigure -plow'
 
 ## SSH SECURITY
@@ -21,7 +21,7 @@ This is the first time I'm using a VM, so its a bit confusing.
 Had to start over.
 
 ## New UserID: ashwin, Public IP: 4.213.195.41
-Completed tasks upto pubkeyauthentication. Turns out the error I faced earlier was due to the hosts.allow and deny not working correctly. Even though I added my local IP to the etc/hosts.allow and set other IPs to be denied in etc/hosts.deny, my Local IP also got denied. Trying to figure what went wrong. So skipping the IP restriction for now.
+Completed tasks upto pubkeyauthentication. Turns out the error I faced earlier was also due to the hosts.allow and deny not working correctly. Even though I added my local IP to the etc/hosts.allow and set other IPs to be denied in etc/hosts.deny, my Local IP also got denied. Trying to figure what went wrong. So skipping the IP restriction for now.
 - fail2ban setup done.
 - Added 'ssladmin@mediaserver' pubkey to '~/.ssh/authorized_keys'
 
