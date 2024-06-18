@@ -27,4 +27,8 @@ Completed tasks upto pubkeyauthentication. Turns out the error I faced earlier w
 
 ### Firewall and Network Security
 #### Firewall Configuration
-- Configured ufw to allow ssh,OpenSSH,http,https and port 2222
+- Configured ufw to allow ssh,OpenSSH,http,https and port 2222.
+- Logs enabled.
+### User and Permission Management
+#### User Setup
+- Created respective users.
