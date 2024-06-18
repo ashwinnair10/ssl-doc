@@ -31,4 +31,5 @@ Completed tasks upto pubkeyauthentication. Turns out the error I faced earlier w
 - Logs enabled.
 ### User and Permission Management
 #### User Setup
-- Created respective users.
+- Created respective users using ```adduser``` . Gave root permission to ```examadmin``` and restricted access of other users to their respective home directories using chroot jail and assigned respective permissions.
+- 
