@@ -32,4 +32,6 @@ Completed tasks upto pubkeyauthentication. Turns out the error I faced earlier w
 ### User and Permission Management
 #### User Setup
 - Created respective users using ```adduser``` . Gave root permission to ```examadmin``` and restricted access of other users to their respective home directories using chroot jail and assigned respective permissions.
+- Tried to setup quotas but kept facing error stating ```modprobe: ERROR: could not insert 'quota_v1': Key was rejected by service```
 - 
+
